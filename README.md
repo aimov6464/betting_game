@@ -22,13 +22,13 @@ Welcome to the **Betting Game**, a scratch card game that generates a matrix (e.
    ```bash
    java -jar target/Betting_game-1.0-SNAPSHOT.jar --config=path/to/config.json --betting-amount=10000
 📝 Configuration File (config.json)
-The configuration file defines the rules and probabilities for the game, including the symbols, their probabilities, and the winning combinations. Here’s an example of what your config.json might look like:
-The configuration file located in repository /resource/config.json
+   The configuration file defines the rules and probabilities for the game, including the symbols, their probabilities, and the winning combinations.
+   The configuration file located in repository /resource/config.json
 
 💰 Betting Amount
-The --betting-amount parameter specifies the amount of money the user is betting in this game session. The final reward is calculated based on this amount and the winning combinations.
+   The --betting-amount parameter specifies the amount of money the user is betting in this game session. The final reward is calculated based on this amount and the winning combinations.
 
-Example:java -jar target/Betting_game-1.0-SNAPSHOT.jar --config=src/main/resources/config.json --betting-amount=10000
+   Example:java -jar target/Betting_game-1.0-SNAPSHOT.jar --config=src/main/resources/config.json --betting-amount=10000
 
 Good luck!
    
