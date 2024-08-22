@@ -1,2 +1,3 @@
-# betting_game
-Scratch game, that will generate a matrix (for example 3x3) from symbols(based on probabilities for each individual cell) and based on winning combintations user either will win or lost.
+“Betting Game ============ Welcome to the **Betting Game**! This is a scratch game that generates a matrix (for example, 3x3) filled with symbols based on configured probabilities. The outcome of the game is determined by predefined winning combinations, which decide whether the user wins or loses based on the generated matrix.”
+
+
