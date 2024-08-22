@@ -1,0 +1,59 @@
+{
+  "columns": 3,
+  "rows": 3,
+  "symbols": {
+    "A": {
+      "reward_multiplier": 5,
+      "type": "standard"
+    },
+    "B": {
+      "reward_multiplier": 3,
+      "type": "standard"
+    },
+    "C": {
+      "reward_multiplier": 2.5,
+      "type": "standard"
+    },
+    "D": {
+      "reward_multiplier": 2,
+      "type": "standard"
+    },
+    "MISS": {
+      "type": "bonus",
+      "impact": "miss"
+    }
+  },
+  "probabilities": {
+    "standard_symbols": {
+      "A": 10,
+      "B": 20,
+      "C": 30,
+      "D": 40
+    },
+    "bonus_symbols": {
+      "MISS": 5
+    }
+  },
+  "win_combinations": {
+    "same_symbol_3_times": {
+      "reward_multiplier": 1,
+      "when": "same_symbols",
+      "count": 3,
+      "group": "same_symbols"
+    },
+    "same_symbol_4_times": {
+      "reward_multiplier": 2,
+      "when": "same_symbols",
+      "count": 4,
+      "group": "same_symbols"
+    },
+    "same_symbols_vertically": {
+      "reward_multiplier": 3,
+      "when": "linear_symbols",
+      "group": "linear_symbols",
+      "covered_areas": [
+        ["0:0", "1:0", "2:0"]
+      ]
+    }
+  }
+}

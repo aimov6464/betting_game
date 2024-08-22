@@ -1,0 +1,35 @@
+{
+  "columns": 3,
+  "rows": 3,
+  "symbols": {
+    "A": {
+      "reward_multiplier": 5,
+      "type": "standard"
+    },
+    "B": {
+      "reward_multiplier": 3,
+      "type": "standard"
+    },
+    "MISS": {
+      "type": "bonus",
+      "impact": "miss"
+    }
+  },
+  "probabilities": {
+    "standard_symbols": {
+      "A": 10,
+      "B": 20
+    },
+    "bonus_symbols": {
+      "MISS": 1
+    }
+  },
+  "win_combinations": {
+    "same_symbol_3_times": {
+      "reward_multiplier": 1,
+      "when": "same_symbols",
+      "count": 3,
+      "group": "same_symbols"
+    }
+  }
+}
